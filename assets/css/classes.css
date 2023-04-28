@@ -94,3 +94,18 @@
   left: -1.5rem;
   transform: rotate(5deg); /* rotaciona o elemento */
 }
+
+.gallery-img {
+  width: 100%;
+  max-width: 36rem;
+  max-height: 36rem;
+  overflow: hidden;
+}
+
+.gallery-img img {
+  transition: all 300ms ease-in-out;
+}
+
+.gallery-img img:hover {
+  transform: translate(-3%, 3%) scale(1.2) rotate(5deg); /* Efeito nas imagens*/
+}
