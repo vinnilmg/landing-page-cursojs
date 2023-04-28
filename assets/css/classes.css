@@ -109,3 +109,8 @@
 .gallery-img img:hover {
   transform: translate(-3%, 3%) scale(1.2) rotate(5deg); /* Efeito nas imagens*/
 }
+
+.responsive-table {
+  overflow: hidden;
+  overflow-x: auto;
+}
