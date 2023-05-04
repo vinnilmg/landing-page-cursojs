@@ -2,4 +2,4 @@
 
 Landing Page desenvolvida no curso de JS. </br>
 
-Deploy realizado em: https://loquacious-paletas-235fff.netlify.app/
+Deploy realizado em: https://my-landing-page-curso-js.netlify.app/
