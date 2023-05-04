@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <script src="./assets/js/script.js"></script>
+
   <link rel="stylesheet" href="./assets/css/variables.css">
   <link rel="stylesheet" href="./assets/css/elements.css">
   <link rel="stylesheet" href="./assets/css/classes.css">
@@ -24,14 +26,17 @@
 </head>
 
 <body>
+  <input type="checkbox" role="button" aria-label="Close menu" class="close-menu" id="close-menu">
+  <label for="close-menu" title="Close menu" class="close-menu-label"></label>
+
   <aside class="menu white-bg">
     <div class="main-content menu-content">
-      <h1>
-        <a href="#home">LOGO</a>
+      <h1 onclick="fechaMenu();">
+        <a href=" #home">LOGO</a>
       </h1>
 
       <nav>
-        <ul>
+        <ul onclick="fechaMenu();">
           <li><a href="#intro">intro</a></li>
           <li><a href="#top3">top 3</a></li>
           <li><a href="#gallery">gallery</a></li>
@@ -285,6 +290,8 @@
         Feito com <span class="heart">&hearts;</span> por Vinicius
       </a></p>
   </footer>
+
+  <a href="#home" class="back-to-top">&#10144</a>
 
 </body>
 
